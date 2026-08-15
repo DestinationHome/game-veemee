@@ -1,0 +1,108 @@
+{
+	"EVENT_RIDE_THE_TRAIN_AS_DRIVER": {
+		"lcl": true,
+		"scene": "AcornPark",
+		"done": false,
+		"xp": 10
+	},
+	"EVENT_CAVESWIM": {
+		"xp": 100,
+		"display": 1,
+		"sortValue": 10,
+		"scene": "AcornPark",
+		"value": 1,
+		"count": 0
+	},
+	"EVENT_SIT_ON_LIFEGUARD_SEAT": {
+		"xp": 50,
+		"reward": "GUID_SUMMER_SHORTS_REWARD",
+		"display": 1,
+		"sortValue": 5,
+		"value": 1,
+		"count": 0
+	},
+	"EVENT_HOTDOG_COUNT": {
+		"counter": true,
+		"lcl": false
+	},
+	"EVENT_5_HOTDOGS": {
+		"xp": 250,
+		"display": 1,
+		"sortValue": 15,
+		"compCount": {
+			"events": ["EVENT_HOTDOG_COUNT"],
+			"chk": ">=",
+			"val": 5
+		}
+	},
+	"EVENT_10_HOTDOGS": {
+		"xp": 250,
+		"display": 1,
+		"sortValue": 15,
+		"compCount": {
+			"events": ["EVENT_HOTDOG_COUNT"],
+			"chk": ">=",
+			"val": 10
+		}
+	},
+	"EVENT_25_HOTDOGS": {
+		"xp": 250,
+		"display": 1,
+		"sortValue": 15,
+		"compCount": {
+			"events": ["EVENT_HOTDOG_COUNT"],
+			"chk": ">=",
+			"val": 25
+		}
+	},
+	"EVENT_ICECREAM_COUNT": {
+		"counter": true,
+		"lcl": false
+	},
+	"EVENT_5_ICECREAMS": {
+		"xp": 250,
+		"display": 1,
+		"sortValue": 15,
+		"compCount": {
+			"events": ["EVENT_ICECREAM_COUNT"],
+			"chk": ">=",
+			"val": 5
+		}
+	},
+	"EVENT_10_ICECREAMS": {
+		"xp": 250,
+		"display": 1,
+		"sortValue": 15,
+		"compCount": {
+			"events": ["EVENT_ICECREAM_COUNT"],
+			"chk": ">=",
+			"val": 10
+		}
+	},
+	"EVENT_25_ICECREAMS": {
+		"xp": 250,
+		"display": 1,
+		"sortValue": 15,
+		"compCount": {
+			"events": ["EVENT_ICECREAM_COUNT"],
+			"chk": ">=",
+			"val": 25
+		}
+	},
+	"EVENT_EAT_HOTDOG": {
+		"xp": 10
+	},
+	"EVENT_EAT_ICECREAM": {
+		"xp": 10
+	},
+	"EVENT_EAT_CONCESSION_MEAL": {
+		"xp": 500,
+		"display": 1,
+		"sortValue": 20,
+		"compList": {
+			"events": ["EVENT_EAT_HOTDOG", "EVENT_EAT_ICECREAM"]
+		},
+		"value": 1,
+		"count": 0
+	}
+}

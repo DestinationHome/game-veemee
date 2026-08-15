@@ -1,0 +1,14 @@
+services:
+  veemee:
+    image: ghcr.io/destinationhome/game-veemee-v2:latest
+    build:
+      context: .
+    container_name: psh-veemee
+    ports:
+      - "3000:3000"
+    environment:
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://dh-dev:4318
+    volumes:
+      - ./static:/app/static
+      - ./public:/app/public
+      - ./data:/app/data

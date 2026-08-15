@@ -1,0 +1,177 @@
+{
+	"custom": {
+		"boatTypes": {
+			"4thJuly": [8, 8, 8, 8, 8],
+			"Thanksgiving": [4, 4, 4, 4, 4]
+		}
+	},
+	"vrewards": {
+		"objects_scea": {},
+		"objects_scee": {}
+	},
+	"vparkscreens": {
+		"screens_scea": {},
+		"screens_scea_4thJuly": {},
+		"screens_scee": {},
+		"screens_scea_autumn": {},
+		"screens_scea_thanks": [
+			{
+				"id": "PosterBoardEnt_1",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			},
+			{
+				"id": "PosterBoardEnt_2",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			},
+			{
+				"id": "PosterBoardEnt_3",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			},
+			{
+				"id": "PosterBoardEnt_4",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			},
+			{
+				"id": "PosterBoardEnt_5",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			},
+			{
+				"id": "PosterBoardEnt_6",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			},
+			{
+				"id": "PosterBoardEnt_7",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_thanksgiving.dds"
+			}
+		],
+		"screens_scea_winter": [
+			{
+				"id": "PosterBoardEnt_1",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			},
+			{
+				"id": "PosterBoardEnt_2",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			},
+			{
+				"id": "PosterBoardEnt_3",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			},
+			{
+				"id": "PosterBoardEnt_4",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			},
+			{
+				"id": "PosterBoardEnt_5",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			},
+			{
+				"id": "PosterBoardEnt_6",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			},
+			{
+				"id": "PosterBoardEnt_7",
+				"url1": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds",
+				"url2": "https://destinationhome.live/home.veemee.com/AcornImages/acorn_winter.dds"
+			}
+		]
+	},
+	"vpark4thjuly": {
+		"rewards_scea": {},
+		"rewards_scee": {},
+		"fireworks_times": {
+			"zephwashere": {
+				"month": 7,
+				"startday": 4,
+				"endday": 10,
+				"hour": 0,
+				"minute": 0,
+				"duration": 10080
+			}
+		}
+	},
+	"parkxplevels": {
+		"xpdata": [
+			{
+				"level": 0,
+				"nextlevelacorns": 0,
+				"nextlevelxp": 0,
+				"rank": "Visitor",
+				"xpIncrementTimer": 0,
+				"xpIncrement": 0,
+				"xpMultiplier": 0
+			},
+			{
+				"level": 1,
+				"nextlevelacorns": 1000,
+				"nextlevelxp": 1000,
+				"rank": "Groundkeeper",
+				"xpIncrementTimer": 1000,
+				"xpIncrement": 1,
+				"xpMultiplier": 1
+			},
+			{
+				"level": 2,
+				"nextlevelacorns": 2000,
+				"nextlevelxp": 2000,
+				"rank": "Landscaper",
+				"xpIncrementTimer": 2000,
+				"xpIncrement": 1,
+				"xpMultiplier": 1
+			},
+			{
+				"level": 3,
+				"nextlevelacorns": 3000,
+				"nextlevelxp": 3000,
+				"rank": "Steward",
+				"xpIncrementTimer": 0,
+				"xpIncrement": 1,
+				"xpMultiplier": 1
+			},
+			{
+				"level": 4,
+				"nextlevelacorns": 4000,
+				"nextlevelxp": 4000,
+				"rank": "Ranger",
+				"xpIncrementTimer": 0,
+				"xpIncrement": 1,
+				"xpMultiplier": 1
+			}
+		]
+	},
+	"parkrelocators": {
+		"AcornPark_Winter": "WinterRelocator.dds",
+		"AcornPark_Thanksgiving": "thanksGivingRelocator.dds",
+		"AcornPark_4thJuly": "parkJulyRelocator.dds",
+		"Default": "parkRelocator.dds"
+	},
+	"motd": {
+		"parknoticeboard": [
+			{
+				"language": "en-US",
+				"messageHeader": "Welcome to Acorn Meadows Park!",
+				"messageBody": "The Destination Home team welcomes you to Acorn Park!"
+			}
+		],
+		"parknoticeboardapt": [
+			{
+				"language": "en-US",
+				"messageHeader": "Welcome to Acorn Meadows Park!",
+				"messageBody": "The Destination Home team welcomes you to Acorn Park!"
+			}
+		]
+	}
+}

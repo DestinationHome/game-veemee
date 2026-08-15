@@ -1,0 +1,15 @@
+# deps
+node_modules/
+
+# env
+.env
+
+# os files
+.DS_Store
+
+# public storage
+# public/
+
+# database files (the ones we should ignore)
+data/audi.db
+data/nml_profiles

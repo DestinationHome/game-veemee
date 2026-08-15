@@ -1,0 +1,73 @@
+{
+	"task_acorn_pedalboat_chase": {
+		"name": "LakeRace",
+		"levelRequired": 1,
+		"scene": "AcornPark",
+		"percentage": 60,
+		"radius": 1.5,
+		"flow": [
+			{
+				"locBank": ["LakeBank"]
+			},
+			{
+				"mS": {
+					"loc": ["74", "76"],
+					"radius": 2.0,
+					"xp": 15,
+					"message": "LakeRace_Step1_Go"
+				}
+			},
+			{
+				"pS": {
+					"target": {
+						"mgInstance": "Social",
+						"mgObject": "PedalBoat",
+						"occupiedCount": 1
+					},
+					"time": 30.0,
+					"message": "LakeRace_Step2_PhotoHint"
+				}
+			},
+			{
+				"eS": {
+					"xp": 50,
+					"events": ["EVENT_BIRTHDAYBOAT"],
+					"message": "TaskCompleted"
+				}
+			}
+		]
+	},
+	"task_scary_graveyard_sneak": {
+		"name": "ScaryRace",
+		"levelRequired": 3,
+		"scene": "AcornPark_Halloween",
+		"informMG": "Halloween",
+		"flow": [
+			{
+				"loc": "13"
+			},
+			{
+				"cS": {
+					"loc": "18",
+					"time": 45.0,
+					"radius": 1.0,
+					"xp": 25,
+					"message": "AvoidVampire"
+				}
+			},
+			{
+				"waitSeq": {
+					"action": "wave",
+					"time": 10.0,
+					"message": "Do a wave!"
+				}
+			},
+			{
+				"eS": {
+					"xp": 100,
+					"events": ["EVENT_SURVIVED_GRAVEYARD"]
+				}
+			}
+		]
+	}
+}
